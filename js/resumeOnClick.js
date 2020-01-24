@@ -5,3 +5,7 @@ function linkedinOnClick() {
 function resumeOnClick() {
 	window.open("resumePage.html")
 }
+
+function mapOnClick() {
+	window.open("mappingPage.html")
+}
