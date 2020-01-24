@@ -12,13 +12,13 @@ h4 {
 body {
 	background-image: url('images/backgroundImage.jpg');
 	background-size: cover;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 }
 
 .bottomLeft {
 	position: absolute;
-	bottom: 8px;
-	left: 16px;
+	bottom: 0px;
+	left: 0px;
 }
 
 .bottommiddle {
