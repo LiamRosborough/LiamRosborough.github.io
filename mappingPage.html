@@ -23,11 +23,15 @@
 		var TorontoJob = L.marker([43.652924, -79.384641]).addTo(map);
 		var GeospatialJob = L.marker([43.469746, -80.542354]).addTo(map);
 		var GeorefJob = L.marker([43.510010, -80.535434]).addTo(map);
+		var ECCCJob = L.marker([43.299193, -79.801385]).addTo(map);
+		var TDJob = L.marker([43.648189, -79.382241]).addTo(map);
 
 		var mnrfPhoto = '<img src="images/mnrf.jpg" height="175px" width="200px"/>';
 		var torontoPhoto = '<img src="images/torontoPhoto.jpg" height="175px" width="200px"/>'
 		var georefPhoto = '<img src="images/georefPhoto.jpg" height="175px" width="200px"/>'
 		var geospatialPhoto = '<img src="images/geospatialPhoto.jpg" height="175px" width="200px"/>'
+		var ecccPhoto = '<img src="images/ecccPhoto.jpg" height="175px" width="200px"/>'
+		var tdPhoto = '<img src="images/tdPhoto.jpg" height="175px" width="200px"/>'
 
 		MinistryJob.bindPopup("<center><strong>GIS Assistant - Ministry of Natural Resources<br> Summer 2018</strong></center><p>Digitized water features across Ontario based off of aerial imagery in ArcMap for the Ontario Hydro Network. Researched and updated metadata records for the Ontario Imagery Program. Had the opportunity to work with LiDAR data to prepare DEMs and DTMs in ArcMap.</p>" + "<br>" + "<center>" + mnrfPhoto + "</center>")
 
@@ -36,6 +40,10 @@
 		GeospatialJob.bindPopup("<center><strong>Library GIS Assistant - University of Waterloo Geospatial Centre<br>Fall 2018</strong></center><p>Provided in-person customer support to patrons of the University of Waterloo Geospatial Centre with their various GIS needs. Digitized and georeferenced historical aerial imagery in the ArcGIS suite. Prepared promotional material for the Geomatics program and GIS in Waterloo.</p>" + "<br>" + "<center>" + geospatialPhoto + "</center>")
 
 		GeorefJob.bindPopup("<center><strong>Transportation Analyst - Georef Systems<br>Fall 2019</strong></center><p>Provided database maintenance and assisted with implementation projects for various student transportation organizations using the BusPlanner GIS. Translated software documentation from English to French. Interacted with clients through the LiveAgent Ticketing System to provide technical support.</p>" + "<br>" + "<center>" + georefPhoto + "</center>")
+		
+		ECCCJob.bindPopup("<center><strong>Geospatial Officer - Environment and Climate Change Canada<br>Summer and Fall 2020</strong></center><p>Provided geospatial support in the form of maps, analysis, and presentations for the Great Lakes Baseline Habitat Survey project.</p>" + "<br>" + "<center>" + ecccPhoto + "</center>")
+	
+		TDJob.bindPopup("<center><strong>Distribution and Geospatial Intelligence Analyst - TD Bank<br>Summer 2021</strong></center><p>Analyzed TD Bank's physical branch network, determining areas of high and low traffic. Used geospatial analyses and data science techniques to build cases for the movement of branches.</p>" + "<br>" + "<center>" + tdPhoto + "</center>")
 	</script>
 </body>
 
