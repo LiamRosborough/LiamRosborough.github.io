@@ -1,0 +1,6 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"1960 Agadir earthquake","year":1960,"magnitude":5.8},"geometry":{"coordinates":[-9.69,30.35],"type":"Point"},"id":0},
+                                        {"type":"Feature","properties":{"name":"1969 Portugal earthquake","year":1969,"magnitude":7.8},"geometry":{"coordinates":[-10.95,36.017],"type":"Point"},"id":1},
+                                        {"type":"Feature","properties":{"name":"2004 Al Hoceima earthquake","year":2004,"magnitude":6.3},"geometry":{"coordinates":[-4.02,35.23],"type":"Point"},"id":2},
+                                        {"type":"Feature","properties":{"name":"2016 Alborean Sea earthquake","year":2016,"magnitude":6.3},"geometry":{"coordinates":[-3.682,35.649],"type":"Point"},"id":3},
+                                        {"type":"Feature","properties":{"name":"2019 Drâa-Tafilalet earthquake","year":2019,"magnitude":5.2},"geometry":{"coordinates":[-4.5949,32.2532],"type":"Point"},"id":4},
+                                        {"type":"Feature","properties":{"name":"2023 Marrakesh–Safi earthquake","year":2023,"magnitude":6.8},"geometry":{"coordinates":[-8.407,31.073],"type":"Point"},"id":5}]}
